@@ -1,0 +1,14 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# production
+/build
+
+
+
+# env files (can opt-in for committing if needed)
+.env*
+
+intense-base-446613-b5-43f7c18449f8.json

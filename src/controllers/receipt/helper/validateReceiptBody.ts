@@ -1,4 +1,4 @@
-function validateAddReceiptBody(body: unknown): string | null {
+function validateReceiptBody(body: unknown): string | null {
     if (body === null || typeof body !== "object") {
         return "Invalid request body";
     }
@@ -21,4 +21,4 @@ function validateAddReceiptBody(body: unknown): string | null {
     return null;
 }
 
-export default validateAddReceiptBody;
+export default validateReceiptBody;
